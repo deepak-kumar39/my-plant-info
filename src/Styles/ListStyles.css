@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 14px 24px;
+  background-color: #9ce5cb;
+  align-items: flex-start;
+  position: relative;
+  margin: 4rem auto 3rem auto;
+border-radius: 12px;  
+}
+
+.subHeading {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #002140;
+  margin: 0;
+
+}
+
+.plantName {
+  font-family: Philosopher;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.68px;
+  color: #002140;
+  margin: 0;
+
+}
+
+.plantPrice {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #002140;
+  margin-top: 2rem;
+
+}
+
+.plantImage{
+  position: absolute;
+  width: 116px;
+  height: 150px;
+  right: -30px;
+  top: -50px;
+}
